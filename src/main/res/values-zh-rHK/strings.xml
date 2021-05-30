@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">實用小工具</string>
+    <string name="page1">主界面</string>
+    <string name="gaode_Map">高德地址</string>
+    <string name="gaode_Map_graph">高德地圖</string>
+    <string name="Scan">掃一掃</string>
+    <string name="voice">語音輸入</string>
+    <string name="identify">開始識別</string>
+    <string name="Recognized_content">識別到的内容</string>
+</resources>
