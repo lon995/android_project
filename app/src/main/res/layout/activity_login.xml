@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Weclome to login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/img_loginName"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_login" />
+
+            <EditText
+                android:id="@+id/mMobileEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/img_loginName"
+                android:background="@color/white"
+                android:hint="Please write your user name"
+                android:inputType="textVisiblePassword"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#ccc"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#ebebed"
+            />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+
+            <ImageView
+                android:id="@+id/img_pwd"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_pwd" />
+
+            <EditText
+                android:id="@+id/mPwdEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/img_pwd"
+                android:background="@color/white"
+                android:hint="Please input the password"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#ccc"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#ebebed"
+            />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:onClick="btnOnClick"
+            android:text="Login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Register"
+            android:onClick="register"
+            android:textColor="#999"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

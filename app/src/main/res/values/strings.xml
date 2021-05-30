@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tools_app</string>
+    <string name="page1">Index</string>
+    <string name="gaode_Map_graph">gaode_Map_graph</string>
+    <string name="gaode_Map">Gaode_address</string>
+    <string name="Scan">Scan</string>
+    <string name="voice">Voice</string>
+    <string name="identify">Voice</string>
+    <string name="Recognized_content">Recognized_content</string>
+</resources>
